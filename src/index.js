@@ -1,2 +1,4 @@
 import DeepFlat from "deep-flat";
-export {DeepFlat};
+// export {DeepFlat};
+
+module.exports(DeepFlat);
