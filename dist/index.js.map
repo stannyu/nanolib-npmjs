@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["DeepFlat"],"mappings":";;;;;;;AAAA;;;;;;QACQA,Q","file":"index.js","sourcesContent":["import DeepFlat from \"deep-flat\";\nexport {DeepFlat};"]}

@@ -2,10 +2,10 @@
   "name": "y",
   "version": "1.0.0",
   "description": "Nanolib for npmjs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel --source-maps -d lib/ src/",
+    "compile": "babel --source-maps -d dist/ src/",
     "prepublish": "npm run compile"
   },
   "repository": {
