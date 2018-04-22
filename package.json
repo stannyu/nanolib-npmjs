@@ -1,5 +1,5 @@
 {
-  "name": "y",
+  "name": "nanolib-npmjs",
   "version": "1.1.0",
   "description": "Nanolib for npmjs",
   "main": "dist/index.js",
