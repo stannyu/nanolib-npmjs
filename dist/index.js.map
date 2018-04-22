@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/index.js"],"names":["DeepFlat"],"mappings":";;;;;;;AAAA;;;;;;QACQA,Q","file":"index.js","sourcesContent":["import DeepFlat from \"deep-flat\";\nexport {DeepFlat};"]}
+{"version":3,"sources":["../src/index.js"],"names":["module","exports"],"mappings":";;AAAA;;;;;;AACA;;AAEAA,OAAOC,OAAP","file":"index.js","sourcesContent":["import DeepFlat from \"deep-flat\";\n// export {DeepFlat};\n\nmodule.exports(DeepFlat);"]}

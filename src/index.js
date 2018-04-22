@@ -1,4 +1,7 @@
-import DeepFlat from "deep-flat";
+// import DeepFlat from "deep-flat";
 // export {DeepFlat};
-
-module.exports(DeepFlat);
+function getFlatArray(arr) {
+  const deepFlatten = arr => [].concat(...arr.map(v => (Array.isArray(v) ? deepFlatten(v) : v)));
+  return deepFlatten;
+}
+module.exports(getFlatArray);
