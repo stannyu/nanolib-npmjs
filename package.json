@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Nanolib for npmjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --source-maps -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stanyudzitski/nanolib-npmjs.git"
+  },
+  "author": "Stas Yudzitski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stanyudzitski/nanolib-npmjs/issues"
+  },
+  "homepage": "https://github.com/stanyudzitski/nanolib-npmjs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
